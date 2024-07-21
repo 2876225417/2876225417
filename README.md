@@ -26,7 +26,7 @@ struct HelloWorld<1> {
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=2876225417&show_icons=true&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=2876225417&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=2876225417&layout=compact&theme=dark)
 
 
 ![GitHub](https://img.shields.io/github/followers/2876225417?label=Follow&style=social)
