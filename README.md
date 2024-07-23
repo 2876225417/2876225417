@@ -30,10 +30,6 @@ struct HelloWorld<1> {
 
 ![你的 GitHub wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ppQwQqq)
 
-[![Website](https://img.shields.io/badge/website-ppqwqqq.space-000000?style=flat-square&logo=google-chrome)](https://ppqwqqq.space)
-
-![GitHub](https://img.shields.io/github/followers/2876225417?label=Follow&style=social)
-
 
 
 
