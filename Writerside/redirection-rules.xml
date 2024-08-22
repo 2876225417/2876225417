@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="480f4499">
+        <description>Created after removal of "Functional Programming" from Help Instance</description>
+        <accepts>Functional-Programming.html</accepts>
+    </rule>
+    <rule id="b774f37">
+        <description>Created after removal of "Markdown_Tutorial" from Help Instance</description>
+        <accepts>Markdown_Tutorial.html</accepts>
+    </rule>
+    <rule id="65c5903">
+        <description>Created after removal of "PythonTutorial" from Help Instance</description>
+        <accepts>PythonTutorial.html</accepts>
+    </rule>
+    <rule id="28267dcc">
+        <description>Created after removal of "1. About" from Help Instance</description>
+        <accepts>1-About.html</accepts>
+    </rule>
+    <rule id="c78b9d6">
+        <description>Created after removal of "1. 关于本书" from Help Instance</description>
+        <accepts>1-关于本书.html</accepts>
+    </rule>
+    <rule id="6eef0b95">
+        <description>Created after removal of "附录B 重载解析" from Help Instance</description>
+        <accepts>附录B-重载解析.html</accepts>
+    </rule>
+</rules>

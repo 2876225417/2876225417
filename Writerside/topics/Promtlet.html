@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图像识别与视觉检测系统</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px auto;
+            max-width: 900px;
+            color: #555;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 0;
+        }
+        h4 {
+            color: #666;
+            font-weight: normal;
+            margin: 10px 0;
+        }
+        h5 {
+            color: #777;
+            font-weight: normal;
+            margin: 20px 0 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .product-features {
+            text-align: left;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .software, .hardware {
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        .banner {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60px;
+            height: 200px;
+            background-color: #3498db;
+            color: white;
+            writing-mode: vertical-rl;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 90%, 0 80%);
+        }
+        .features-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .features-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+        .features-list li {
+            margin: 10px 0;
+        }
+        .features-icon {
+            width: 80px;
+            height: 80px;
+            background-color: #3498db;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .features-icon img {
+            width: 50px;
+            height: 50px;
+        }
+        .images-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .images-container img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="banner">湖北春晖</div>
+<h1>图像识别与视觉检测系统</h1>
+<h2>智能化、自动化的产品质量检测解决方案</h2>
+
+<h4>
+    由湖北春晖信息技术有限公司研发的图像识别与视觉检测系统，<br>
+    是一款专门设计用于无人化产品质量检测的高科技设备。<br>
+    它能有效降低人工质检的经济成本和时间成本，同时显著提高<br>
+    产品生产过程中的质检效率，确保产品质量。
+</h4>
+
+<div class="features-container">
+    <ul class="features-list">
+        <li>自动化</li>
+        <li>智能化</li>
+        <li>高效率</li>
+    </ul>
+    <div class="features-icon">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/inspection.png" alt="Inspection Icon">
+    </div>
+    <ul class="features-list">
+        <li>高精度</li>
+        <li>多功能</li>
+        <li>多场景</li>
+    </ul>
+</div>
+
+<div class="images-container">
+    <img src="ch1.jpg" alt="Image 1">
+    <img src="ch2.jpg" alt="Image 2">
+</div>
+
+<table>
+    <tr>
+        <th>产品特点</th>
+        <th>详细信息</th>
+    </tr>
+    <tr>
+        <td class="product-features">
+            <ul>
+                <li>适用性强：可在不同环境下使用</li>
+                <li>检测精度高：一般环境下的数据识别成功率较高</li>
+                <li>实时监控：实时掌控产品数据</li>
+                <li>无人监管：实现自动化数据检测</li>
+            </ul>
+        </td>
+        <td>
+            <div class="software">
+                <h5>软件环境</h5>
+                <ul>
+                    <li>语言环境：Python 3.12</li>
+                    <li>深度学习框架：PaddleOCR</li>
+                    <li>应用程序框架：Pyside2</li>
+                    <li>图形处理库：OpenCV</li>
+                    <li>运行系统：Ubuntu 22.04</li>
+                </ul>
+            </div>
+            <div class="hardware">
+                <h5>硬件环境</h5>
+                <ul>
+                    <li>核心设备：树莓派 (Raspberry Pi) 5</li>
+                    <li>CPU：推荐主频为2.0GHz及以上</li>
+                    <li>RAM：推荐2GB及以上</li>
+                    <li>硬盘：推荐30GB及以上</li>
+                    <li>图像采集设备：推荐720p及以上</li>
+                </ul>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

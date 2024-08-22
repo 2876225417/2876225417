@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi" name="Help Instance"
+                 start-page="Flask-Tutorial.md">
+
+    <toc-element topic="Flask-Tutorial.md"/>
+    <toc-element topic="README.md"/>
+    <toc-element topic="C-Templates.md">
+        <toc-element topic="1-关于本书.md"/>
+        <toc-element topic="第一部分-基础.md">
+            <toc-element topic="2-函数模板.md"/>
+            <toc-element topic="3-类模板.md"/>
+            <toc-element topic="4-非类型模板参数.md"/>
+            <toc-element topic="5-技巧性基础知识.md"/>
+            <toc-element topic="6-模板实战.md"/>
+            <toc-element topic="7-模板术语.md"/>
+        </toc-element>
+        <toc-element topic="第二部分-深入模板.md">
+            <toc-element topic="1-深入模板基础.md"/>
+            <toc-element topic="9-模板参数.md"/>
+            <toc-element topic="8-3-模板实参.md"/>
+            <toc-element topic="11-模板实参演绎.md"/>
+            <toc-element topic="12-特化与重载.md"/>
+            <toc-element topic="13-未来的方向.md"/>
+        </toc-element>
+        <toc-element topic="第三部分-模板与设计.md">
+            <toc-element topic="14-模板的多态威力.md"/>
+            <toc-element topic="15-trait与policy类.md"/>
+            <toc-element topic="16-模板与继承.md"/>
+            <toc-element topic="17-metaprogram.md"/>
+            <toc-element topic="18-表达式模板.md"/>
+        </toc-element>
+        <toc-element topic="第四部分-高级应用程序.md">
+            <toc-element topic="19-类型区分.topic"/>
+            <toc-element topic="20-智能指针.md"/>
+            <toc-element topic="21-tuple.md"/>
+            <toc-element topic="22-函数对象和回调.md"/>
+        </toc-element>
+        <toc-element topic="附录A-一处定义原则.md"/>
+        <toc-element topic="附录B-重载解析.md"/>
+    </toc-element>
+    <toc-element topic="C-Conccurency.md">
+        <toc-element topic="1-你好，C-的并发世界.md"/>
+        <toc-element topic="2-线程管理.md"/>
+        <toc-element topic="3-线程间数据共享.md"/>
+        <toc-element topic="4-同步并发操作.md"/>
+        <toc-element topic="5-C-内存模型和原子类型操作.md"/>
+        <toc-element topic="6-基于锁的并发数据结构设计.md"/>
+        <toc-element topic="7-无锁并发数据结构设计.md"/>
+        <toc-element topic="8-并发代码设计.md"/>
+        <toc-element topic="9-高级线程管理.md"/>
+        <toc-element topic="10-多线程程序的测试和调试.md"/>
+    </toc-element>
+    <toc-element topic="C-Lambda-Story.md">
+        <toc-element topic="Relevant-Links.md"/>
+        <toc-element topic="1-Lambdas-in-C-98-03.md"/>
+        <toc-element topic="2-Lambdas-in-C-11.md"/>
+        <toc-element topic="3-Lambdas-in-C-14.md"/>
+        <toc-element topic="4-Lambdas-in-C-17.md"/>
+    </toc-element>
+    <toc-element topic="汇编语言.md">
+        <toc-element topic="第一章-基础知识.md"/>
+        <toc-element topic="第二章-寄存器.md"/>
+        <toc-element topic="第三章-寄存器-内存访问.md"/>
+    </toc-element>
+    <toc-element topic="现代操作系统.md"/>
+    <toc-element topic="操作系统.md"/>
+    <toc-element topic="Functional-Programming.md"/>
+    <toc-element topic="编译原理.md"/>
+    <toc-element topic="内存池-Memory-Pool.md"/>
+    <toc-element topic="Effective-C.md">
+        <toc-element topic="第一章-让自己习惯C.md"/>
+        <toc-element topic="第二章-构造-析构-赋值运算.md"/>
+        <toc-element topic="第三章-资源管理.md"/>
+        <toc-element topic="第四章-设计与声明.md"/>
+    </toc-element>
+    <toc-element topic="STL源码分析.md"/>
+    <toc-element topic="The-Terms-in-Book-《STL源码分析》.md"/>
+    <toc-element topic="Algorithm-Tutorial.md"/>
+    <toc-element topic="Git-Tutorial.md"/>
+    <toc-element topic="《TCP-IP详解卷一：协议》.md"/>
+</instance-profile>
