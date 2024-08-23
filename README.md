@@ -1,5 +1,23 @@
 ## Hello GitHub
 
+```C++
+template<class T>
+class Stack{
+  Stack();
+  ~Stack();
+};
+
+typedef Stack<std::queue<int>> q;
+typedef std::shared_ptr<std::shared_ptr<int>> pp;
+typedef std::weak_ptr<int> w;
+typedef std::unique_ptr<std::shared_ptr<std::queue<Stack<int>>>> ppq;
+typedef std::unique_ptr<std::shared_ptr<std::queue<std::weak_ptr<Stack<int>>>>> ppqw;
+typedef std::unique_ptr<std::shared_ptr<std::queue<std::weak_ptr<std::queue<Stack<int>>>>>> ppqwq;
+typedef std::unique_ptr<std::shared_ptr<std::queue<std::weak_ptr<std::queue<std::queue<Stack<int>>>>>>> ppqwqq;
+typedef std::unique_ptr<std::shared_ptr<std::queue<std::weak_ptr<std::queue<std::queue<std::queue<Stack<int>>>>>>>> ppqwqqq;
+
+```
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=2876225417&show_icons=true&theme=radical)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=2876225417&layout=compact&theme=dark)
