@@ -7,9 +7,8 @@ class Stack{
   ~Stack();
 };
 
-typedef Stack<std::queue<int>> q;
-typedef std::shared_ptr<std::shared_ptr<int>> pp;
-typedef std::weak_ptr<int> w;
+typedef std::unique_ptr<Stack<int>> p;
+typedef std::unique_ptr<std::shared_ptr<Stack<int>>> pp;
 typedef std::unique_ptr<std::shared_ptr<std::queue<Stack<int>>>> ppq;
 typedef std::unique_ptr<std::shared_ptr<std::queue<std::weak_ptr<Stack<int>>>>> ppqw;
 typedef std::unique_ptr<std::shared_ptr<std::queue<std::weak_ptr<std::queue<Stack<int>>>>>> ppqwq;
