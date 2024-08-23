@@ -15,7 +15,7 @@ typedef std::unique_ptr<std::shared_ptr<std::queue<std::weak_ptr<std::queue<Stac
 typedef std::unique_ptr<std::shared_ptr<std::queue<std::weak_ptr<std::queue<std::queue<Stack<int>>>>>>> ppqwqq;
 typedef std::unique_ptr<std::shared_ptr<std::queue<std::weak_ptr<std::queue<std::queue<std::queue<Stack<int>>>>>>>> ppqwqqq;
 
-auto recursiveLambda = [](auto&& self, auto&& type) {
+auto ppQwQqq = [](auto&& self, auto&& type) {
     using namespace std;
     if constexpr (is_same_v<std::decay_t<decltype(type)>, ppqwqqq>) cout << "hello github, I'm ppqwqqq";
     else self(self, *type);
