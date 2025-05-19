@@ -17,10 +17,7 @@
 [![CMake](https://img.shields.io/badge/CMake-3.28+-064F8C?logo=cmake&logoColor=white)](https://cmake.org)
 [![Clang](https://img.shields.io/badge/Clang-18+-259BED?logo=llvm&logoColor=white)](https://clang.llvm.org/)
 
-📊 GitHub Statistics
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=2876225417&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="170"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=2876225417&theme=tokyonight" alt="GitHub Streak" height="170"> </div>
-🔧 Language & Tools
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=2876225417&layout=compact&theme=tokyonight" alt="Top Languages"> </div>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=2876225417&layout=compact&theme=tokyonight" alt="Top Languages">
 
 ### 🐧 Environment
 
