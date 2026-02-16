@@ -1,7 +1,7 @@
 title = "ppQwQqq's Space"
 theme = "PaperMod"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 [languages]
@@ -24,14 +24,12 @@ identifier = "posts"
 name = "Posts"
 url = "posts/"
 weight = 10
-pageRef = "posts/"
 
 [[languages.en.menu.main]]
 identifier = "about"
 name = "About"
 url = "about/"
 weight = 20
-pageRef = "about/"
 
 [languages.zh]
 languageCode = "zh-CN"
@@ -52,14 +50,12 @@ identifier = "posts"
 name = "文章"
 url = "posts/"
 weight = 10
-pageRef = "posts/"
 
 [[languages.zh.menu.main]]
 identifier = "about"
 name = "关于"
 url = "about/"
 weight = 20
-pageRef = "about/"
 
 [params]
 defaultTheme = "auto"
