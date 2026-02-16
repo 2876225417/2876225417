@@ -1,4 +1,3 @@
-# baseURL = "https://2876225417.github.io/2876225417/"
 title = "ppQwQqq's Space"
 theme = "PaperMod"
 defaultContentLanguage = "en"
@@ -23,16 +22,16 @@ ShowPostNavLinks = true
 [[languages.en.menu.main]]
 identifier = "posts"
 name = "Posts"
-url = "/en/posts/"
+url = "/posts/"
 weight = 10
-pageRef = "/en/posts/"
+pageRef = "/posts/"
 
 [[languages.en.menu.main]]
 identifier = "about"
 name = "About"
-url = "/en/about/"
+url = "/about/"
 weight = 20
-pageRef = "/en/about/"
+pageRef = "/about/"
 
 [languages.zh]
 languageCode = "zh-CN"
