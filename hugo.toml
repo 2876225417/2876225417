@@ -1,8 +1,8 @@
-baseURL = "https://2876225417.github.io/2876225417/"
+# baseURL = "https://2876225417.github.io/2876225417/"
 title = "ppQwQqq's Space"
 theme = "PaperMod"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 [languages]
