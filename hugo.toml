@@ -1,4 +1,77 @@
-baseURL = "https://example.org/"
-languageCode = "en-us"
-title = "ppQwQqq Space"
+baseURL = "/"
+title = "ppQwQqq's Space"
 theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+pluralizeListTitles = false
+
+[languages]
+[languages.en]
+languageCode = "en-US"
+languageName = "English"
+weight = 1
+title = "ppQwQqq's Space"
+contentDir = "content/en"
+
+[languages.en.params]
+description = "ppQwQqq's Space"
+author = "ppQwQqq"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+
+[[languages.en.menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+pageRef = "/en/posts/"
+
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 20
+pageRef = "/en/about/"
+
+[languages.zh]
+languageCode = "zh-CN"
+languageName = "中文"
+weight = 2
+title = "ppQwQqq 的空间"
+contentDir = "content/zh"
+
+[languages.zh.params]
+description = "ppQwQqq's 的空间"
+author = "ppQwQqq"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+
+[[languages.zh.menu.main]]
+identifier = "posts"
+name = "文章"
+url = "/zh/posts/"
+weight = 10
+pageRef = "/zh/posts/"
+
+[[languages.zh.menu.main]]
+identifier = "about"
+name = "关于"
+url = "/zh/about/"
+weight = 20
+pageRef = "/zh/about/"
+
+[params]
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+ShowRssButtonInSectionTermList = true
+socialIcons = [
+  { name = "github", url = "https://github.com/2876225417" },
+]
