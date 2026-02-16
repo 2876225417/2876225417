@@ -1,7 +1,7 @@
 title = "ppQwQqq's Space"
 theme = "PaperMod"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 pluralizeListTitles = false
 
 [languages]
@@ -22,16 +22,16 @@ ShowPostNavLinks = true
 [[languages.en.menu.main]]
 identifier = "posts"
 name = "Posts"
-url = "/posts/"
+url = "posts/"
 weight = 10
-pageRef = "/posts/"
+pageRef = "posts/"
 
 [[languages.en.menu.main]]
 identifier = "about"
 name = "About"
-url = "/about/"
+url = "about/"
 weight = 20
-pageRef = "/about/"
+pageRef = "about/"
 
 [languages.zh]
 languageCode = "zh-CN"
@@ -50,16 +50,16 @@ ShowPostNavLinks = true
 [[languages.zh.menu.main]]
 identifier = "posts"
 name = "文章"
-url = "/zh/posts/"
+url = "posts/"
 weight = 10
-pageRef = "/zh/posts/"
+pageRef = "posts/"
 
 [[languages.zh.menu.main]]
 identifier = "about"
 name = "关于"
-url = "/zh/about/"
+url = "about/"
 weight = 20
-pageRef = "/zh/about/"
+pageRef = "about/"
 
 [params]
 defaultTheme = "auto"
