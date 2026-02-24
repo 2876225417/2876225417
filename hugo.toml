@@ -21,7 +21,9 @@ ShowToc = true
 ShowRssButtonInSectionTermList = true
 ShowAllPagesInArchive = true
 ShowFullTextinRSS = true
+showLastModified = true
 dateFormat = "2006-01-01"
+showWordCount = true
 
 [params.social]
 github = "ppqwqqq"
