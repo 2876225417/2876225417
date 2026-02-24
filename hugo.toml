@@ -1,10 +1,49 @@
+# baseURL = "https://profile.ppqwqqq.com" # This is not used neccessarily
 title = "ppQwQqq's Space"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 pluralizeListTitles = false
+mainSections = ["en/posts", "zh/posts"]
+enableGitInfo = true
+enableEmoji = true
+enableInlineShortcodes = true
+
+[params]
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowFullTextinRSS = true
+dateFormat = "2006-01-01"
+
+[params.social]
+github = "ppqwqqq"
+
+[markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+style = "monokai"
+tabWidth = 4
+anchorLineNos = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
 
 [languages]
+# English Lang Site
 [languages.en]
 languageCode = "en-US"
 languageName = "English"
@@ -33,6 +72,7 @@ url = "about/"
 weight = 20
 pageRef = "/en/about/"
 
+# Chinese Lang Site
 [languages.zh]
 languageCode = "zh-CN"
 languageName = "中文"
@@ -58,17 +98,3 @@ identifier = "about"
 name = "关于"
 url = "about/"
 weight = 20
-
-[params]
-defaultTheme = "auto"
-disableThemeToggle = false
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowToc = true
-ShowRssButtonInSectionTermList = true
-socialIcons = [
-  { name = "github", url = "https://github.com/2876225417" },
-]
